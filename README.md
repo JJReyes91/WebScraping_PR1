@@ -1,2 +1,4 @@
-# WebScraping_PR1
-Tipología y ciclo de vida de los datos Práctica 1. Máster Data Science (UOC)
+# PRÁCTICA 1: WEB SCRAPING
+Asígnatura: Tipología y ciclo de vida de los datos.  
+Máster: Data Science (UOC)  
+Alumno: Javier Jiménez Reyes
