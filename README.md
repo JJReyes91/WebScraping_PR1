@@ -15,4 +15,13 @@ De todo el repositorio de datos que contiene la web, únicamente se realizará l
 
 Estos datos capturados permetirán conocer el evolutivo de los derivados del petroleo (valor con y sin impuestos) en España y a su vez poder conocer la tendencia general que tienen.
 
-## Captura de datos  
+## Captura de datos 
+Para la captura de datos mediante la técnica de webscraping se a utilizado el lenguaje d eprogramación **Python**. Para la ejecución del *script* es necesario la instalación del sistema de gestión de paquetes **_PIP_** para Python, asì como las siguientes bibliotecas:  
+```
+pip install requests #Biblioteca para realizar la patición (target) a la página web y facilita la interacción con esta.
+pip install beautifulsoup4 #Biblioteca para realizar el procesado del HTML de la web y permite su análisis
+pip install DateTime #Biblioteca para la conversión de la varable string a date.
+pip install matplotlib #Biblioteca para realizar gráficos
+pip install pandas #Biblioteca para la generación de DataFrames(hojas de datos) que permitan exportar a excel.
+```
+
