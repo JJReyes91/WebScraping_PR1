@@ -41,4 +41,4 @@ Los resultados se almacenarán en un archivo **.csv** con el nombre **output.csv
 
 El siguiente gráfico representa los datos capturados en el periodo 2018 y 2019 referente a la evolución del valor (con impuestos) de los distintos derivados del petroleo. Tal como se puede observar, el gráfico muestra que la tendencia del velor de todos lo combustibles es al alza a excepción de los altibajos (fluctuación) que tienen a lo largo del periodo estudiado.
 
-![Image description](https://github.com/JJReyes91/WebScraping_PR1/blob/master/con%20impuestos.png)
+![center-aligned-image](https://github.com/JJReyes91/WebScraping_PR1/blob/master/con%20impuestos.png)
