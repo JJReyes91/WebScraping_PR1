@@ -25,8 +25,13 @@ pip install DateTime        # Biblioteca para la conversión de la varable strin
 pip install matplotlib      # Biblioteca para realizar gráficos
 pip install pandas          # Biblioteca para la generación de DataFrames(hojas de datos) que permitan exportar a csv.
 ```
-Los aspectos que se han tenido en cuenta para la captura de los datos han sido:  
+Los aspectos que se han tenido en cuenta para la captura de los datos han sido:
+
 1. Las marcas utilizadas: 
-   -  **<tbody>**
-   -  **\<tr>\**
-   -  **"<td>"**
+   -  \<tbody>\: Marca donde se encuentra la tabla con los datos.
+   -  \<tr>\: Marca los distitntos registros.
+   -  \<td>\: Marca las distintas celdas del registro.
+2. Se deberá convertir la variable **Fecha** del tipo *string* a tipo *date*.
+3. Se debará eliminar el carácter € de los atributos correspondiente al valor de los distintos combustibles. 
+4. Se deberá convertir el carácter , a . de los valores de los distintos combustibles, para posteriormente poder convertir el tipo de      variable de *string* a *float*.
+
