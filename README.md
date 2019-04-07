@@ -31,7 +31,14 @@ Los aspectos que se han tenido en cuenta para la captura de los datos han sido:
    -  \<tbody>\: Marca donde se encuentra la tabla con los datos.
    -  \<tr>\: Marca los distitntos registros.
    -  \<td>\: Marca las distintas celdas del registro.
-2. Se deberá convertir la variable **Fecha** del tipo *string* a tipo *date*.
-3. Se debará eliminar el carácter € de los atributos correspondiente al valor de los distintos combustibles. 
-4. Se deberá convertir el carácter , a . de los valores de los distintos combustibles, para posteriormente poder convertir el tipo de      variable de *string* a *float*.
+2. Se deberá convertir la variable **Fecha** del tipo **_string_** a tipo **_date_**.
+3. Se debará eliminar el carácter **€** de los atributos correspondiente al valor de los distintos combustibles. 
+4. Se deberá convertir el carácter **,** a **.** de los valores de los distintos combustibles, para posteriormente poder convertir el      tipo de variable de **_string_** a **_float_**.
+
+Los resultados se almacenarán en un archivo **.csv** con el nombre **output.csv**.  
+
+## Resultados
+
+El siguiente gráfico representa los datos capturados en el periodo 2018 y 2019 referente a la evolución del valor (con impuestos) de los distintos derivados del petroleo. Tal como se puede observar, el gráfico muestra que la tendencia del velor de todos lo combustibles es al alza a excepción de los altibajos (fluctuación) que tienen a lo largo del periodo estudiado.
+
 
