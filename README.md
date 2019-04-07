@@ -27,6 +27,6 @@ pip install pandas          # Biblioteca para la generación de DataFrames(hojas
 ```
 Los aspectos que se han tenido en cuenta para la captura de los datos han sido:  
 1. Las marcas utilizadas: 
-   -  <tbody>
-   -  <tr>
-   -  <td>
+   -  **<tbody>**
+   -  **'<tr>'**
+   -  **"<td>"**
