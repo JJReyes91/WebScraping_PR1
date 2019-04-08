@@ -44,7 +44,7 @@ Los resultados se almacenan en un archivo **.csv** con el nombre **output.csv**.
 
 | Fecha         | Super 95      | Super 95 (Sin imp.) | Diesel        | Diesel (Sin imp.) | Diesel Cal.   |  Diesel Cal. (Sin imp.)|
 | ------------- | ------------- | ------------------- | ------------- | ----------------- | ------------- | ---------------------- |
-| 1             | 2             | 3                   | 4             | 5                 | 6             | 7                      |
+|        1      |       2       |          3          |        4      |          5        |        6      |             7          |
 
 ## Resultados
 
