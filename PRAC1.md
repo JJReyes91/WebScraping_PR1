@@ -8,8 +8,9 @@ Es una realidad el hecho que el precio de los combustibles va variando con el ti
 El objetivo que se persigue en esta práctica consiste en capturar mediante la técnica del **_webscraping_**, datos que permitan dar respuesta a la pregunta formulada.
 
 ## Contexto
-El sitio web [Datosmacro.com](https://datosmacro.expansion.com/) cuenta con un amplio repositorio de datos de distinta temática. Entre todos ellos se puede encontrar el evolutivo de los [Precios de los derivados del petróleo en España](https://datosmacro.expansion.com/energia/precios-gasolina-diesel-calefaccion/espana).  
-En este repositorio se indica la evolución del precio de los distintos combustibles fósiles **Super95**, **Diesel** y **Diesel para calefacción** con y sin impuestos añadidos a su valor, dentro del contexto del consumidor final. 
+El sitio web [Datosmacro.com](https://datosmacro.expansion.com/) cuenta con un amplio repositorio de datos de distinta temática, los cuales actualiza en base a un seguido de [webs externas](https://datosmacro.expansion.com/legal/fuentes) que utiliza como **fuentes de información primarias**. 
+
+Entre todos estos repositorios se encuentra el evolutivo de los [Precios de los derivados del petróleo en España](https://datosmacro.expansion.com/energia/precios-gasolina-diesel-calefaccion/espana). En este se indica la evolución del precio de los distintos combustibles fósiles **Super95**, **Diesel** y **Diesel para calefacción** con y sin impuestos añadidos a su valor, dentro del contexto del consumidor final.
 
 ## Datos y características
 De todo el repositorio de datos que contiene la web, únicamente se realiza la captura de los periodos **2018** y **2019** en su totalidad de atributos (**Fecha, Super 95, Super 95 (Sin imp.), Diesel, Diesel (Sin imp.), Diesel Cal., Diesel Cal. (Sin imp.)**) y registros, siendo el primero de ellos la fecha de medida del valor en € del resto.  
@@ -41,18 +42,38 @@ Los aspectos que se han tenido en cuenta para la captura de los datos han sido:
 Los resultados se almacenan en un archivo **.csv** con el nombre **output.csv**.
 
 ## Dataset output.csv
-La estructura del data set finales la siguiente:
+El *dataset* generado se compone de **7 atributos** y un total de **....... registros** estructurados del siguiente modo:
 
-|  Registro   | Fecha    | Super 95  | Super 95 (Sin imp.) | Diesel      | Diesel (Sin imp.) | Diesel Cal. |  Diesel Cal. (Sin imp.)| 
-| ----------- | -------- | --------- | ------------------- | ----------- | ----------------- | ----------- | ---------------------- |
+| Fecha    | Super 95  | Super 95 (Sin imp.) | Diesel      | Diesel (Sin imp.) | Diesel Cal. |  Diesel Cal. (Sin imp.)| 
+| -------- | --------- | ------------------- | ----------- | ----------------- | ----------- | ---------------------- |
 
+La información que guardan los distintos atributos es:
+
+- **Fecha**: Fecha del registro en formato (dd/mm/yyyy). Variable tipo **Date**.
+- **Super95**: Coste del combustible Super95. Variable tipo **Float**.
+- **Super95 (Sin imp.)**: Coste del combustible Super95 sin impuestos. Variable tipo **Float**.
+- **Diesel**: Coste del combustible Diesel. Variable tipo **Float**.
+- **Diesel (Sin imp.)**: Coste del combustible Diesel sin impuestos. Variable tipo **Float**.
+- **Diesel Cal.**: Coste del combustible Diesel calefacción. Variable tipo **Float**.
+- **Diesel Cal. (Sin imp.)**:Coste del combustible Diesel calefacción sin impuestos. Variable tipo **Float**.
 
 ## Resultados
-
 El siguiente gráfico representa los datos capturados en el periodo 2018 y 2019 referente a la evolución del valor (con impuestos) de los distintos derivados del petróleo. Tal como se puede observar, el gráfico muestra que la tendencia del valor de todos los combustibles es al alza a excepción de los altibajos (fluctuación) que tienen a lo largo del periodo estudiado.
 
 ![Image description](https://github.com/JJReyes91/WebScraping_PR1/blob/master/con%20impuestos.png)
-               
 
+## Agradecimientos
+Agradecer al sitio web [Datosmacro.com](https://datosmacro.expansion.com/) así como el directorio de [webs externas](https://datosmacro.expansion.com/legal/fuentes) que utiliza para mantener los datos acutalizados, el haber facilitado dicha información para la realización de la práctica. 
 
+## Licencia
+El código y los datos se publicarían bajo una licencia CC BY-NC-SA 4.0, es decir, licencia **_Creative Commons Non-Commercial y Share-Alike_**. Bajo esta licencia tenemos las siguientes condiciones:
+1. El material se puede copiar, redistribuir, adaptar y modificar en cualquier medio o formato, fomentando la colaboración y la filosofía open-source.
+2. Se incluye el término de la atribución, para que al replicar o usar el contenido se deba citar a la fuente original.
+3. El término Share Alike de la licencia nos garantiza que cualquier modificación o uso
+de este material se publique bajo la misma licencia, en aras de promover la colaboración.
+4. El término Non Commercial determina que el material no puede ser usado para fines comerciales y por tanto su ámbito se reduce puramente al académico.
 
+## Recursos
+Los recursos utilizados para el desarrollo de la práctica han sido: 
+- *Subirats, L., Calvo, M. (2018). Web Scraping. Editorial UOC.*
+- *Lawson, R. (2015). Web Scraping with Python. Packt Publishing Ltd. Chapter 2. Scraping the Data.*
