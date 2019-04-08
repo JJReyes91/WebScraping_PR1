@@ -20,9 +20,9 @@ Posteriormente a su captura, los datos serán agrupados por años indicando por 
 Tras la agrupación por años se graficarán únicamente **los valores con impuestos** que son los que muestran el valor de caras al consumidor final. Estos datos permitirán conocer el evolutivo del valor de los derivados del petróleo en España y a su vez poder observar cual ha sido su tendencia a lo largo de los últimos años.
 
 ## Captura de datos 
-Para la captura de datos mediante la técnica de **_web scraping_** se a utilizado el lenguaje de programación **Python**. Para la ejecución del *script* [**_Code.py_**](https://github.com/JJReyes91/WebScraping_PR1/blob/master/Code.py), es necesario la instalación del sistema de gestión de paquetes **_PIP_** para Python, así como las siguientes bibliotecas:  
+Para la captura de datos mediante la técnica de **_web scraping_** se ha utilizado el lenguaje de programación **Python**. Para la ejecución del *script* [**_Code.py_**](https://github.com/JJReyes91/WebScraping_PR1/blob/master/Code.py), es necesario la instalación del sistema de gestión de paquetes **_PIP_** para Python, así como las siguientes bibliotecas:  
 ```
-pip install requests        # Biblioteca para realizar la patición (target) a la página web y facilita la interacción con esta.
+pip install requests        # Biblioteca para realizar la petición (target) a la página web y facilita la interacción con esta.
 pip install beautifulsoup4  # Biblioteca para realizar análisis de documentos HTML.
 pip install lxml            # Biblioteca para realizar el procesado del HTML a lxml.
 pip install DateTime        # Biblioteca para la conversión de la variable string a date.
