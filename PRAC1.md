@@ -68,7 +68,7 @@ El siguiente gráfico representa para los años **2005** a **2019** la evolució
 
 Algunos de los aspectos que se pueden comentar de la representación gráfica de los valores son: 
 - Se aprecia una tendencia ascendente general para cada uno de los combustibles a lo largo de los años.
-- La tónica general que se manteiene a lo largo de los años es que el valor del Super 95 es superior al Diesel. 
+- La tónica general que se mantiene a lo largo de los años es que el valor del Super 95 es superior al Diesel. 
 - Se aprecia un cambio de tendencia en la tónica general en el 2008, año en que el valor promedio del Diesel es superior al del Super95.   Esta punta corresponde a la subida del 4 de agosto de dicho año en el que el Diesel superó por primera vez el precio de la gasolina.
 - Los máximos históricos se dan en los periodos del 2012 al 2014. 
 
