@@ -45,7 +45,7 @@ La estructura del data set finales la siguiente:
 
 |  Registro   | Fecha    | Super 95  | Super 95 (Sin imp.) | Diesel      | Diesel (Sin imp.) | Diesel Cal. |  Diesel Cal. (Sin imp.)| 
 | ----------- | -------- | --------- | ------------------- | ----------- | ----------------- | ----------- | ---------------------- |
-| 0           | 1        |2          |3                    |4            |5                  |6            |7                       |
+
 
 ## Resultados
 
