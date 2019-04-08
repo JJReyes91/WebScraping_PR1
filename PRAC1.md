@@ -73,7 +73,7 @@ Algunos de los aspectos que se pueden comentar de la representación gráfica de
 - Los máximos históricos se dan en los periodos del 2012 al 2014. 
 
 ## Agradecimientos
-Agradecer al sitio web [Datosmacro.com](https://datosmacro.expansion.com/) así como el directorio de [webs externas](https://datosmacro.expansion.com/legal/fuentes) que utiliza para mantener los datos acutalizados, el haber facilitado dicha información para la realización de la práctica. 
+Agradecer al sitio web [Datosmacro.com](https://datosmacro.expansion.com/) así como el directorio de [webs externas](https://datosmacro.expansion.com/legal/fuentes) que utiliza para mantener los datos actualizados, el haber facilitado dicha información para la realización de la práctica. 
 
 ## Licencia
 El código y los datos se publicarían bajo una licencia CC BY-NC-SA 4.0, es decir, licencia **_Creative Commons Non-Commercial y Share-Alike_**. Bajo esta licencia tenemos las siguientes condiciones:
