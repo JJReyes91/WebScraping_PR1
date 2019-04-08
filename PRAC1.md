@@ -1,7 +1,7 @@
 # PRÁCTICA 1: WEB SCRAPING PRECIOS DE LOS DERIVADORS DEL PETRÓLEO EN ESPAÑA 
-Asígnatura: Tipología y ciclo de vida de los datos.  
-Máster: Data Science (UOC)  
-Alumno: Javier Jiménez Reyes  
+**Asígnatura**: Tipología y ciclo de vida de los datos.  
+**Máster**: Data Science (UOC)  
+**Alumno**: Javier Jiménez Reyes  
 
 ## Introducción  
 Es una realidad el hecho que el precio de los combustibles va variando con el tiempo a medida que el mercado los va regulando. De este modo estos suben y bajan en función de varios condicionantes, pero ¿cuál ha sido su evolución?  
