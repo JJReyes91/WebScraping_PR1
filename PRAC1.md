@@ -25,9 +25,9 @@ Para la captura de datos mediante la técnica de **_web scraping_** se a utiliza
 pip install requests        # Biblioteca para realizar la patición (target) a la página web y facilita la interacción con esta.
 pip install beautifulsoup4  # Biblioteca para realizar análisis de documentos HTML.
 pip install lxml            # Biblioteca para realizar el procesado del HTML a lxml.
-pip install DateTime        # Biblioteca para la conversión de la varable string a date.
+pip install DateTime        # Biblioteca para la conversión de la variable string a date.
 pip install matplotlib      # Biblioteca para realizar gráficos
-pip install pandas          # Biblioteca para la generación de DataFrames (hojas de datos) que permitan exportar a csv.
+pip install pandas          # Biblioteca para la generación de DataFrames (hojas de datos) que permitan exportar a .csv.
 ```
 Los aspectos que se han tenido en cuenta para la captura de los datos han sido:
 
@@ -58,7 +58,7 @@ La información que guardan los distintos atributos es:
 - **Diesel**: Coste del combustible Diesel. Variable tipo **Float** con dos decimales.
 - **Diesel (Sin imp.)**: Coste del combustible Diesel sin impuestos. Variable tipo **Float** con dos decimales.
 - **Diesel Cal.**: Coste del combustible Diesel calefacción. Variable tipo **Float** con dos decimales.
-- **Diesel Cal. (Sin imp.)**:Coste del combustible Diesel calefacción sin impuestos. Variable tipo **Float** con dos decimales.
+- **Diesel Cal. (Sin imp.)**: Coste del combustible Diesel calefacción sin impuestos. Variable tipo **Float** con dos decimales.
 - **Año**: Año extraído del atributo **Fecha**.
 
 ## Resultados
