@@ -16,7 +16,7 @@ De todo el repositorio de datos que contiene la web, únicamente se realizará l
 De los datos capturados se graficarán únicamente los valores con impuesto que son los que muestran el valor de caras al consumidor final. Estos datos permitirán conocer el evolutivo del valor de los derivados del petroleo en España y a su vez poder conocer la tendencia general que tienen.
 
 ## Captura de datos 
-Para la captura de datos mediante la técnica de webscraping se a utilizado el lenguaje de programación **Python**. Para la ejecución del *script* es necesario la instalación del sistema de gestión de paquetes **_PIP_** para Python, así como las siguientes bibliotecas:  
+Para la captura de datos mediante la técnica de webscraping se a utilizado el lenguaje de programación **Python**. Para la ejecución del *script* **_Code.py_**, es necesario la instalación del sistema de gestión de paquetes **_PIP_** para Python, así como las siguientes bibliotecas:  
 ```
 pip install requests        # Biblioteca para realizar la patición (target) a la página web y facilita la interacción con esta.
 pip install beautifulsoup4  # Biblioteca para realizar análisis de documentos HTML.
@@ -42,5 +42,5 @@ Los resultados se almacenarán en un archivo **.csv** con el nombre **output.csv
 El siguiente gráfico representa los datos capturados en el periodo 2018 y 2019 referente a la evolución del valor (con impuestos) de los distintos derivados del petroleo. Tal como se puede observar, el gráfico muestra que la tendencia del velor de todos lo combustibles es al alza a excepción de los altibajos (fluctuación) que tienen a lo largo del periodo estudiado.
 
 
-![Image description](https://github.com/JJReyes91/WebScraping_PR1/blob/master/con%20impuestos.png)
+![Image description](https://github.com/JJReyes91/WebScraping_PR1/blob/master/con%20impuestos.png){ width="800" height="600" style="display: block; margin: 0 auto" }
 
