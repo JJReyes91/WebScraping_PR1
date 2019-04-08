@@ -53,12 +53,12 @@ El *dataset* generado se compone de **7 atributos** y un total de **706 registro
 La información que guardan los distintos atributos es:
 
 - **Fecha**: Fecha del registro en formato (dd/mm/yyyy). Variable tipo **Date**.
-- **Super95**: Coste del combustible Super95. Variable tipo **Float**.
-- **Super95 (Sin imp.)**: Coste del combustible Super95 sin impuestos. Variable tipo **Float**.
-- **Diesel**: Coste del combustible Diesel. Variable tipo **Float**.
-- **Diesel (Sin imp.)**: Coste del combustible Diesel sin impuestos. Variable tipo **Float**.
-- **Diesel Cal.**: Coste del combustible Diesel calefacción. Variable tipo **Float**.
-- **Diesel Cal. (Sin imp.)**:Coste del combustible Diesel calefacción sin impuestos. Variable tipo **Float**.
+- **Super95**: Coste del combustible Super95. Variable tipo **Float** con dos decimales.
+- **Super95 (Sin imp.)**: Coste del combustible Super95 sin impuestos. Variable tipo **Float** con dos decimales.
+- **Diesel**: Coste del combustible Diesel. Variable tipo **Float** con dos decimales.
+- **Diesel (Sin imp.)**: Coste del combustible Diesel sin impuestos. Variable tipo **Float** con dos decimales.
+- **Diesel Cal.**: Coste del combustible Diesel calefacción. Variable tipo **Float** con dos decimales.
+- **Diesel Cal. (Sin imp.)**:Coste del combustible Diesel calefacción sin impuestos. Variable tipo **Float** con dos decimales.
 - **Año**: Año extraído del atributo **Fecha**.
 
 ## Resultados
