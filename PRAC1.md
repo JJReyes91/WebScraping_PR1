@@ -59,9 +59,15 @@ La información que guardan los distintos atributos es:
 - **Año**: Año extraído del atributo **Fecha**.
 
 ## Resultados
-El siguiente gráfico representa los datos capturados en el periodo 2018 y 2019 referente a la evolución del valor (con impuestos) de los distintos derivados del petróleo. Tal como se puede observar, el gráfico muestra que la tendencia del valor de todos los combustibles es al alza a excepción de los altibajos (fluctuación) que tienen a lo largo del periodo estudiado.
+El siguiente gráfico representa para los años **2005** a **2019** la evolución del valor (con impuestos) promedio por año, de los distintos derivados del petróleo. 
 
-![Image description](https://github.com/JJReyes91/WebScraping_PR1/blob/master/con%20impuestos.png)
+![Image description](https://github.com/JJReyes91/WebScraping_PR1/blob/master/Gr%C3%A1fico%20resultado.png)
+
+Algunos de los aspectos que se pueden comentar de la representación gráfica de los valores son: 
+- Se aprecia una tendencia ascendente general para cada uno de los combustibles a lo largo de los años.
+- La tónica general que se manteiene a lo largo de los años es que el valor del Super 95 es superior al Diesel. 
+- Se aprecia un cambio de tendencia en la tónica general en el 2008, año en que el valor promedio del Diesel es superior al del Super95.   Esta punta corresponde a la subida del 4 de agosto de dicho año en el que el Diesel superó por primera vez el precio de la gasolina.
+- Los máximos históricos se dan en los periodos del 2012 al 2014. 
 
 ## Agradecimientos
 Agradecer al sitio web [Datosmacro.com](https://datosmacro.expansion.com/) así como el directorio de [webs externas](https://datosmacro.expansion.com/legal/fuentes) que utiliza para mantener los datos acutalizados, el haber facilitado dicha información para la realización de la práctica. 
