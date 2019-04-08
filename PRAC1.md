@@ -5,7 +5,7 @@
 
 ## Introducción  
 Es una realidad el hecho que el precio de los combustibles va variando con el tiempo a medida que el mercado los va regulando. De este modo estos suben y bajan en función de varios condicionantes, pero ¿cuál ha sido su evolución?  
-El objetivo que se persigue en esta práctica consiste en capturar mediante la técnica del **_webscraping_**, datos que permitan dar respuesta a la pregunta formulada.
+El objetivo que se persigue en esta práctica consiste en capturar mediante la técnica del **_web scraping_**, datos que permitan dar respuesta a la pregunta formulada.
 
 ## Contexto
 El sitio web [Datosmacro.com](https://datosmacro.expansion.com/) cuenta con un amplio repositorio de datos de distinta temática, los cuales actualiza en base a un seguido de [webs externas](https://datosmacro.expansion.com/legal/fuentes) que utiliza como **fuentes de información primarias**. 
@@ -20,7 +20,7 @@ Posteriormente a su captura, los datos serán agrupados por años indicando por 
 Tras la agrupación por años se graficarán únicamente **los valores con impuestos** que son los que muestran el valor de caras al consumidor final. Estos datos permitirán conocer el evolutivo del valor de los derivados del petróleo en España y a su vez poder observar cual a sido su tendencia a lo largo de los últimos años.
 
 ## Captura de datos 
-Para la captura de datos mediante la técnica de **_webscraping_** se a utilizado el lenguaje de programación **Python**. Para la ejecución del *script* [**_Code.py_**](https://github.com/JJReyes91/WebScraping_PR1/blob/master/Code.py), es necesario la instalación del sistema de gestión de paquetes **_PIP_** para Python, así como las siguientes bibliotecas:  
+Para la captura de datos mediante la técnica de **_web scraping_** se a utilizado el lenguaje de programación **Python**. Para la ejecución del *script* [**_Code.py_**](https://github.com/JJReyes91/WebScraping_PR1/blob/master/Code.py), es necesario la instalación del sistema de gestión de paquetes **_PIP_** para Python, así como las siguientes bibliotecas:  
 ```
 pip install requests        # Biblioteca para realizar la patición (target) a la página web y facilita la interacción con esta.
 pip install beautifulsoup4  # Biblioteca para realizar análisis de documentos HTML.
