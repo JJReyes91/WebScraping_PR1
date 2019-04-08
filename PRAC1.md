@@ -39,7 +39,7 @@ Los aspectos que se han tenido en cuenta para la captura de los datos han sido:
 3. Se deberá eliminar el carácter **€** de los atributos correspondiente al valor de los distintos combustibles. 
 4. Se deberá convertir el carácter **','** a **'.'** de los valores de los distintos combustibles, para posteriormente poder convertir      el tipo de variable de **_string_** a **_float_**.
 
-Los resultados se almacenan en un archivo **.csv** con el nombre **output.csv**.
+Los resultados se almacenan en un archivo **.csv** con el nombre [**output.csv**](https://github.com/JJReyes91/WebScraping_PR1/blob/master/outup.csv).
 Indicar que en el código se dejan comentados:
 - La opción de graficar los valores de los carburantes sin impuestos.
 - Generar un archivo outputII.csv con los registros agrupados por año (son los valores que se utilizan para realizar el gráfico). 
