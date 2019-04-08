@@ -4,13 +4,14 @@ Máster: Data Science (UOC)
 Alumno: Javier Jiménez Reyes  
 
 ## Introducción  
-Es una realidad el hecho que el precio de los combustibles va variando con el tiempo a medida que el mercado los va regulando. De este modo estos suben y bajan a medida en función de varios condicionantes. Pero ¿cuál es la tendencia general que están siguiendo?  
-El objetivo que se persigue en esta práctica consistirá en capturar mediante la técnica del **_webscraping_**, datos que permitan dar respuesta a la pregunta formulada.  
+Es una realidad el hecho que el precio de los combustibles va variando con el tiempo a medida que el mercado los va regulando. De este modo estos suben y bajan en función de varios condicionantes, pero ¿cuál es la tendencia general que están siguiendo?  
+El objetivo que se persigue en esta práctica consiste en capturar mediante la técnica del **_webscraping_**, datos que permitan dar respuesta a la pregunta formulada.
 
-## Origen web, datos y características  
+## Contexto
 El sitio web [Datosmacro.com](https://datosmacro.expansion.com/) cuenta con un amplio repositorio de datos de distinta temática. Entre todos ellos se puede encontrar el evolutivo de los [Precios de los derivados del petróleo en España](https://datosmacro.expansion.com/energia/precios-gasolina-diesel-calefaccion/espana).  
-En este repositorio se indica la evolución del previo del **Super95**, **Diesel** y **Diesel para calefacción** con y sin impuestos añadidos a su valor. 
+En este repositorio se indica la evolución del precio de los distintos combustibles fósiles **Super95**, **Diesel** y **Diesel para calefacción** con y sin impuestos añadidos a su valor, dentro del contexto del consumidor final. 
 
+## Datos y características
 De todo el repositorio de datos que contiene la web, únicamente se realiza la captura de los periodos **2018** y **2019** en su totalidad de atributos (**Fecha, Super 95, Super 95 (Sin imp.), Diesel, Diesel (Sin imp.), Diesel Cal., Diesel Cal. (Sin imp.)**) y registros, siendo el primero de ellos la fecha de medida del valor en € del resto.  
 
 El motivo de realizar la captura de datos únicamente del periodo definido, es debido a que se ha considerado como suficiente para cumplir con el objetivo de la práctica descrito anteriormente.  
@@ -37,7 +38,13 @@ Los aspectos que se han tenido en cuenta para la captura de los datos han sido:
 3. Se deberá eliminar el carácter **€** de los atributos correspondiente al valor de los distintos combustibles. 
 4. Se deberá convertir el carácter **','** a **'.'** de los valores de los distintos combustibles, para posteriormente poder convertir el      tipo de variable de **_string_** a **_float_**.
 
-Los resultados se almacenan en un archivo **.csv** con el nombre **output.csv**.  
+Los resultados se almacenan en un archivo **.csv** con el nombre **output.csv**.
+
+## Dataset output.csv
+
+| Fecha         | Super 95      | Super 95 (Sin imp.) | Diesel        | Diesel (Sin imp.) | Diesel Cal.   |  Diesel Cal. (Sin imp.)|
+| ------------- | ------------- | ------------------- | ------------- | ----------------- | ------------- | ---------------------- |
+| 1             | 2             | 3                   | 4             | 5                 | 6             | 7                      |
 
 ## Resultados
 
