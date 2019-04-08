@@ -4,7 +4,7 @@ Máster: Data Science (UOC)
 Alumno: Javier Jiménez Reyes  
 
 ## Introducción  
-Es una realidad el hecho que el precio de los combustibles va variando con el tiempo a medida que el mercado los va regulando. De este modo estos suben y bajan en función de varios condicionantes, pero ¿cuál es la tendencia general que están siguiendo?  
+Es una realidad el hecho que el precio de los combustibles va variando con el tiempo a medida que el mercado los va regulando. De este modo estos suben y bajan en función de varios condicionantes, pero ¿cuál ha sido su evolución?  
 El objetivo que se persigue en esta práctica consiste en capturar mediante la técnica del **_webscraping_**, datos que permitan dar respuesta a la pregunta formulada.
 
 ## Contexto
@@ -13,11 +13,11 @@ El sitio web [Datosmacro.com](https://datosmacro.expansion.com/) cuenta con un a
 Entre todos estos repositorios se encuentra el evolutivo de los [Precios de los derivados del petróleo en España](https://datosmacro.expansion.com/energia/precios-gasolina-diesel-calefaccion/espana). En este se indica la evolución del precio de los distintos combustibles fósiles **Super95**, **Diesel** y **Diesel para calefacción** con y sin impuestos añadidos a su valor, dentro del contexto del consumidor final.
 
 ## Datos y características
-De todo el repositorio de datos que contiene la web, únicamente se realiza la captura de los periodos **2018** y **2019** en su totalidad de atributos (**Fecha, Super 95, Super 95 (Sin imp.), Diesel, Diesel (Sin imp.), Diesel Cal., Diesel Cal. (Sin imp.)**) y registros, siendo el primero de ellos la fecha de medida del valor en € del resto.  
+En el desarrollo de la práctica se realizará la captura de la toralidad de los atributos (**Fecha, Super 95, Super 95 (Sin imp.), Diesel, Diesel (Sin imp.), Diesel Cal., Diesel Cal. (Sin imp.)**), cuyo valor se expresa en **€**, para todas las fechas de la web en las que constan registros (**2005** al **2019**).
 
-El motivo de realizar la captura de datos únicamente del periodo definido, es debido a que se ha considerado como suficiente para cumplir con el objetivo de la práctica descrito anteriormente.  
+Posteriormente a su captura, los datos serán agrupados por años indicando por cada uno de los combustibles el valor promedio calculado para ese período. 
 
-De los datos capturados se graficarán únicamente **los valores con impuesto** que son los que muestran el valor de caras al consumidor final. Estos datos permitirán conocer el evolutivo del valor de los derivados del petróleo en España y a su vez poder conocer la tendencia general que tienen.
+Tras la agrupación por años se graficarán únicamente **los valores con impuestos** que son los que muestran el valor de caras al consumidor final. Estos datos permitirán conocer el evolutivo del valor de los derivados del petróleo en España y a su vez poder observar cual a sido su tendencia a lo largo de los últimos años.
 
 ## Captura de datos 
 Para la captura de datos mediante la técnica de **_webscraping_** se a utilizado el lenguaje de programación **Python**. Para la ejecución del *script* **_Code.py_**, es necesario la instalación del sistema de gestión de paquetes **_PIP_** para Python, así como las siguientes bibliotecas:  
@@ -42,10 +42,10 @@ Los aspectos que se han tenido en cuenta para la captura de los datos han sido:
 Los resultados se almacenan en un archivo **.csv** con el nombre **output.csv**.
 
 ## Dataset output.csv
-El *dataset* generado se compone de **7 atributos** y un total de **....... registros** estructurados del siguiente modo:
+El *dataset* generado se compone de **7 atributos** y un total de **706 registros** estructurados del siguiente modo:
 
-| Fecha    | Super 95  | Super 95 (Sin imp.) | Diesel      | Diesel (Sin imp.) | Diesel Cal. |  Diesel Cal. (Sin imp.)| 
-| -------- | --------- | ------------------- | ----------- | ----------------- | ----------- | ---------------------- |
+| Fecha    | Super 95  | Super 95 (Sin imp.) | Diesel      | Diesel (Sin imp.) | Diesel Cal. |  Diesel Cal. (Sin imp.)| Año     |
+| -------- | --------- | ------------------- | ----------- | ----------------- | ----------- | ---------------------- | ------- |
 
 La información que guardan los distintos atributos es:
 
@@ -56,6 +56,7 @@ La información que guardan los distintos atributos es:
 - **Diesel (Sin imp.)**: Coste del combustible Diesel sin impuestos. Variable tipo **Float**.
 - **Diesel Cal.**: Coste del combustible Diesel calefacción. Variable tipo **Float**.
 - **Diesel Cal. (Sin imp.)**:Coste del combustible Diesel calefacción sin impuestos. Variable tipo **Float**.
+- **Año**: Año extraído del atributo **Fecha**.
 
 ## Resultados
 El siguiente gráfico representa los datos capturados en el periodo 2018 y 2019 referente a la evolución del valor (con impuestos) de los distintos derivados del petróleo. Tal como se puede observar, el gráfico muestra que la tendencia del valor de todos los combustibles es al alza a excepción de los altibajos (fluctuación) que tienen a lo largo del periodo estudiado.
