@@ -13,11 +13,11 @@ El sitio web [Datosmacro.com](https://datosmacro.expansion.com/) cuenta con un a
 Entre todos estos repositorios se encuentra el evolutivo de los [Precios de los derivados del petróleo en España](https://datosmacro.expansion.com/energia/precios-gasolina-diesel-calefaccion/espana). En este se indica la evolución del precio de los distintos combustibles fósiles **Super95**, **Diesel** y **Diesel para calefacción** con y sin impuestos añadidos a su valor, dentro del contexto del consumidor final.
 
 ## Datos y características
-En el desarrollo de la práctica se realizará la captura de la toralidad de los atributos (**Fecha, Super 95, Super 95 (Sin imp.), Diesel, Diesel (Sin imp.), Diesel Cal., Diesel Cal. (Sin imp.)**), cuyo valor se expresa en **€**, para todas las fechas de la web en las que constan registros (**2005** al **2019**).
+En el desarrollo de la práctica se realizará la captura de la totalidad de los atributos (**Fecha, Super 95, Super 95 (Sin imp.), Diesel, Diesel (Sin imp.), Diesel Cal., Diesel Cal. (Sin imp.)**), cuyo valor se expresa en **€**, para todas las fechas de la web en las que constan registros (**2005** al **2019**).
 
 Posteriormente a su captura, los datos serán agrupados por años indicando por cada uno de los combustibles el valor promedio calculado para ese período. 
 
-Tras la agrupación por años se graficarán únicamente **los valores con impuestos** que son los que muestran el valor de caras al consumidor final. Estos datos permitirán conocer el evolutivo del valor de los derivados del petróleo en España y a su vez poder observar cual a sido su tendencia a lo largo de los últimos años.
+Tras la agrupación por años se graficarán únicamente **los valores con impuestos** que son los que muestran el valor de caras al consumidor final. Estos datos permitirán conocer el evolutivo del valor de los derivados del petróleo en España y a su vez poder observar cual ha sido su tendencia a lo largo de los últimos años.
 
 ## Captura de datos 
 Para la captura de datos mediante la técnica de **_web scraping_** se a utilizado el lenguaje de programación **Python**. Para la ejecución del *script* [**_Code.py_**](https://github.com/JJReyes91/WebScraping_PR1/blob/master/Code.py), es necesario la instalación del sistema de gestión de paquetes **_PIP_** para Python, así como las siguientes bibliotecas:  
