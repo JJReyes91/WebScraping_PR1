@@ -75,7 +75,7 @@ El motivo de escoger esta temática es debído a que es un tema que afecta a tod
 El hecho de disponer de este histórico de datos permite apreciar estas variaciones a distintos niveles:
 - **A corto plazo**: Debido a que se tiene más de una medida dentro del mismo mes en el mismo año, se puede apreciar no tan sólo el número de veces que el valor de estos carburantes se han movido, si no en que medida (que es la sensación de movimiento que la persona de a pie es capaz de apreciar). 
 - **A medio plazo**: Al tener mediciones por cada uno de los meses del año se puede apreciar cual a sido la tónica general a lo largo del año así como apreciar en que momento se han generado subidas (temporadas de vacaciones en el que la gente coge más el coche, invierno en el que se usa la calefacción,...).
-- **A largo plazo**: _Es la visual utilizada para responder al objetivo planteado en la práctica_, conocer como ha evolucionado el valor de los carburantes, cual está siendo su tendencia (esta creciendo constantemente, uno crece más que el otro,...) o por ejemplo verificar si existen cambios de tendencia (¿a sido siempre más cara la gasolina que el diesel?).
+- **A largo plazo**: __Es la visual utilizada para responder al objetivo planteado en la práctica__, conocer como ha evolucionado el valor de los carburantes, cual está siendo su tendencia (esta creciendo constantemente, uno crece más que el otro,...) o por ejemplo verificar si existen cambios de tendencia (¿a sido siempre más cara la gasolina que el diesel?).
 
 ## Licencia  
 El código y los datos se publicarían bajo una licencia CC BY-NC-SA 4.0, es decir, licencia **_Creative Commons Non-Commercial y Share-Alike_**. Bajo esta licencia tenemos las siguientes condiciones:
