@@ -28,13 +28,13 @@ El *dataset* finalmente generado tras la captura, se compone de **7 atributos** 
 
 La información que guardan los distintos atributos es:
 
-- **Fecha**: Fecha del registro en formato (dd/mm/yyyy). Variable tipo **Date**.
-- **Super95**: Coste del combustible Super95. Variable tipo **Float** con dos decimales.
-- **Super95 (Sin imp.)**: Coste del combustible Super95 sin impuestos. Variable tipo **Float** con dos decimales.
-- **Diesel**: Coste del combustible Diesel. Variable tipo **Float** con dos decimales.
-- **Diesel (Sin imp.)**: Coste del combustible Diesel sin impuestos. Variable tipo **Float** con dos decimales.
-- **Diesel Cal.**: Coste del combustible Diesel calefacción. Variable tipo **Float** con dos decimales.
-- **Diesel Cal. (Sin imp.)**: Coste del combustible Diesel calefacción sin impuestos. Variable tipo **Float** con dos decimales.
+- **Fecha**: Fecha del registro en formato (dd/mm/yyyy). Variable tipo **_Date_**.
+- **Super95**: Coste del combustible Super95. Variable tipo **_Float_** con dos decimales.
+- **Super95 (Sin imp.)**: Coste del combustible Super95 sin impuestos. Variable tipo **_Float_** con dos decimales.
+- **Diesel**: Coste del combustible Diesel. Variable tipo **_Float_** con dos decimales.
+- **Diesel (Sin imp.)**: Coste del combustible Diesel sin impuestos. Variable tipo **_Float_** con dos decimales.
+- **Diesel Cal.**: Coste del combustible Diesel calefacción. Variable tipo **_Float_** con dos decimales.
+- **Diesel Cal. (Sin imp.)**: Coste del combustible Diesel calefacción sin impuestos. Variable tipo **_Float_** con dos decimales.
 - **Año**: Año extraído del atributo **Fecha**. Campo calculado.
 
 Posteriormente a su captura los datos serán **agrupados por años**, indicando por cada uno de los combustibles el **valor promedio** calculado para ese período (**ejemplo**: para el 2005 se recogerá el valor promedio, por combustible, de los precios que ha tenido en ese año). Estos datos permitirán visualizar la evolución del valor de los derivados del petróleo en España y a su vez poder observar cual ha sido su tendencia a lo largo de los últimos años.
