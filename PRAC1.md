@@ -16,7 +16,7 @@ El contenido en la web se encuentra separado por años, de forma que para la con
 En base al contexto en que se encuentran los datos necesarios para dar respuesta a la pregunta formulada, se puede observar que es un caso adecuado para aplicar la técnica de **_web scraping_**.
 
 ## Título del dataset  
-Como título para el dataset se ha escogido: **EVOLUCIÓN DE PRECIOS DE LOS DERIVADOS DEL PETRÓLEO EN ESPAÑA**. El motivo de escoger este título es porqué describe el objetivo principal planteado: **conocer como han evolucionado los precios de los combustibles derivados del petróleo en España**.
+Como título para el dataset se ha escogido: **EVOLUCIÓN DE PRECIOS DE LOS DERIVADOS DEL PETRÓLEO EN ESPAÑA**. El motivo de escoger este título es porqué describe el objetivo principal planteado: conocer **cómo han evolucionado los precios de los combustibles derivados del petróleo en España**.
 
 ## Descripción del dataset  
 En el desarrollo de la práctica se realizará la captura de la totalidad de los atributos (**Fecha, Super 95, Super 95 (Sin imp.), Diesel, Diesel (Sin imp.), Diesel Cal., Diesel Cal. (Sin imp.)**), cuyo valor se expresa en **€**, para todas las fechas de la web en las que constan registros (**2005** al **2019**).
