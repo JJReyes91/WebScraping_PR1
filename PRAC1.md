@@ -69,7 +69,7 @@ Estos datos han sido capturados mediante la técnica de **_web scraping_** utili
 
 1. Carga de los paquetes y herramientas necesarias para la ejecución del código (especificadas en el apartado **Código**)
 2. Inicialización de las listas/variables donde se almacenarán los datos capturados.
-3. Lectura del robots.txt de la web [Datosmacro.com](https://datosmacro.expansion.com/) y impresión para su lectura.
+3. Lectura del robots.txt de la web [Datosmacro.com](https://datosmacro.expansion.com/) e impresión para su lectura.
 4. Modificación del user-agent mediante una función que itera el usuario para evitar bloqueos por *default*.
 5. Se genera un bucle mediante tres funciones **_for_** para la captura de todos los datos:
    - Primer **_for_**: recorre las distintas páginas que representan los distintos años de capturas.
