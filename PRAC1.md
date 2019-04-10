@@ -21,7 +21,7 @@ Como título para el *dataset* se ha escogido: **EVOLUCIÓN DE PRECIOS DE LOS DE
 ## Descripción del dataset  
 En el desarrollo de la práctica se realizará la captura de la totalidad de los atributos (**Fecha, Super 95, Super 95 (Sin imp.), Diesel, Diesel (Sin imp.), Diesel Cal., Diesel Cal. (Sin imp.)**), cuyo valor se expresa en **€**, para todas las fechas de la web en las que constan registros (**2005** al **2019**).
 
-El *dataset* finalmente generado tras la captura, se compone de **7 atributos** y un total de **706 registros** estructurados del siguiente modo:
+El *dataset* finalmente generado tras la captura, se compone de **7 atributos** y un total de **705 registros** estructurados del siguiente modo:
 
 | Fecha    | Super 95  | Super 95 (Sin imp.) | Diesel      | Diesel (Sin imp.) | Diesel Cal. |  Diesel Cal. (Sin imp.)| Año     |
 | -------- | --------- | ------------------- | ----------- | ----------------- | ----------- | ---------------------- | ------- |
@@ -65,7 +65,21 @@ Los campos que forman el *dataset* son los descritos en el apartado de **Descrip
 
 El periodo de datos, también expuesto en el apartado de **Descripción del dataset**, va desde el año **2005** al año **2019** (actualidad).
 
-Estos datos han sido capturados mediante la técnica de **_web scraping_** utilizando como lenguaje de programación **_Python_**. El *script* se detalla en el apartado **Código** más adelante en el documento. 
+Estos datos han sido capturados mediante la técnica de **_web scraping_** utilizando como lenguaje de programación **_Python_**. Los pasos seguidos para la captura de los datos han sido:
+
+1. Carga de los paquetes y herramientas necesarias para la ejecución del código (especificadas en el apartado **Código**)
+2. Inicialización de las listas/variables donde se almacenarán los datos capturados.
+3. Lectura del robots.txt de la web [Datosmacro.com](https://datosmacro.expansion.com/) y impresión para su lectura.
+4. Modificación del user-agent mediante una función que itera el usuario para evitar bloqueos por *default*.
+5. Se genera un bucle mediante tres funciones **_for_** para la captura de todos los datos:
+   - Primer **_for_**: recorre las distintas páginas que representan los distintos años de capturas.
+   - Segundo **_for_**: recorre los distintos registros de la tabla existente en la página seleccionada por el primer **_for_**.
+   - Tercer **_for_**: recorre, dentro del registro seleccionado en el segundo **_for_**, cada una de las celdas para capturar el valor                        que contienen. 
+6. Se crea el *dataset* donde se almacenen los datos almacenados en las distintas listas generadas en el paso **2**.
+7. Se crear un nuevo campo con el nombre **Año** a partir del campo **Fecha** del *dataset*.
+8. Se guarda el *dataset* en un archivo **.csv** con el nombre **_output.csv_**.
+9. Se agrupan los datos en función del campo **Año** creado en el apartado **7** y como valor se coge el promedio de los valores          registrados para ese periodo.
+10. Se genera y almacena el gráfico con los valores agrupados para los carburantes con impuestos.
 
 ## Agradecimientos  
 Agradecer al sitio web [Datosmacro.com](https://datosmacro.expansion.com/) así como el directorio de [webs externas](https://datosmacro.expansion.com/legal/fuentes) que utiliza para mantener los datos actualizados, el haber facilitado dicha información para la realización de la práctica. 
@@ -88,12 +102,15 @@ de este material se publique bajo la misma licencia, en aras de promover la cola
 ## Código  
 Para la captura de datos mediante la técnica de **_web scraping_** se ha utilizado el lenguaje de programación **_Python_**. Para la ejecución del *script* [**_Code.py_**](https://github.com/JJReyes91/WebScraping_PR1/blob/master/Code.py), es necesario la instalación del sistema de gestión de paquetes **_PIP_** para **_Python_**, así como las siguientes bibliotecas:  
 ```
-pip install requests        # Biblioteca para realizar la petición (target) a la página web y facilita la interacción con esta.
-pip install beautifulsoup4  # Biblioteca para realizar análisis de documentos HTML.
-pip install lxml            # Biblioteca para realizar el procesado del HTML a lxml.
-pip install DateTime        # Biblioteca para la conversión de la variable string a date.
-pip install matplotlib      # Biblioteca para realizar gráficos
-pip install pandas          # Biblioteca para la generación de DataFrames (hojas de datos) que permitan exportar a .csv.
+pip install requests        # Paquete para realizar la petición (target) a la página web y facilita la interacción con esta.
+pip install beautifulsoup4  # Paquete para realizar análisis de documentos HTML.
+pip install lxml            # Paquete para realizar el procesado del HTML a lxml.
+pip install DateTime        # Paquete para la conversión de la variable string a date.
+pip install matplotlib      # Paquete para realizar gráficos
+pip install pandas          # Paquete para la generación de DataFrames (hojas de datos) que permitan exportar a .csv.
+pip install urllib3         # Paquete para la detección de errores en la carga de la url.
+pip install syspath         # Paquete para establecer fácilmente rutas comunes y no tener que realizar muchas manipulaciones de ruta.
+pip install fake-useragent  # Paquete para aleatorizar el user-agent y evitar bloqueos por default.
 ```
 Los aspectos que se han tenido en cuenta para la captura de los datos han sido:
 
